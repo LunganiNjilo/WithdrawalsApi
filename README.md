@@ -29,6 +29,20 @@ Withdrawal balance updated, but the event was never published.
 - Secondary: Static analysis / IDE warnings could highlight unreachable code.
 - Note: Code coverage could also help, but VS Community edition lacks this feature.
 
+### Setup Api
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/LunganiNjilo/WithdrawalsApi.git
+cd WithdrawalsApi
+```
+#### 2. Endpoint
+
+```bash
+http://localhost:5218/api/bankaccount/withdraw
+```
+
 ### Testing with Postman
 
 1. Open **Postman**.  
